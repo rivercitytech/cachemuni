@@ -1,0 +1,15 @@
+{
+  "name": "cachemuni",
+  "version": "0.0.9",
+  "description": "",
+  "main": "index.js",
+  "types": "./types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-stringify-deterministic": "^1.0.7"
+  }
+}
