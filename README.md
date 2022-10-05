@@ -48,6 +48,7 @@ HttpCachingServer is the same as [http's Server object](https://nodejs.org/api/h
     store?: Store;
     config?: Record<string, { invalidateOn?: string[] }>;
     serverOptions?: http.ServerOptions;
+    considerHeaders?: string;
   }
 ```
 

@@ -13,12 +13,14 @@ class HttpCachingServerTypedef extends http.Server {
     store = new BasicStore(),
     config = {},
     serverOptions = {},
+    considerHeaders = [],
   }: {
     targetHostName: string;
     targetPort: number;
     store?: Store;
     config?: Record<string, { invalidateOn?: string[] }>;
     serverOptions?: http.ServerOptions;
+    considerHeaders?: string[];
   });
 }
 
